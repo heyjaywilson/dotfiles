@@ -1,6 +1,10 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+# Fig pre block. Keep at the top of this file.
+. "$HOME/.fig/shell/zshrc.pre.zsh"
+export PATH=/opt/homebrew/bin:$PATH
+
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
