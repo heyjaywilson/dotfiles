@@ -1,1 +1,2 @@
-private_files/*
+private_files/*.zsh
+.DS_Store
