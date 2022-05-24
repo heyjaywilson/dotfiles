@@ -1,6 +1,6 @@
 # dotfiles
-My dot files I use for various macOS configuration
 
+My dot files I use for various macOS configuration
 
 ## Setup
 
@@ -14,10 +14,13 @@ for conf in "$HOME/Developer/personal/dotfiles/"*.zsh; do #make sure to change t
 done
 unset conf
 
-for conf in "$HOME/Developer/personal/dotfiles/private_files/"*.zsh; do
-  source "${conf}"
-done
-unset conf
+# Uncomment the code block below if there are no private files
+# needed
+#
+# for conf in "$HOME/Developer/personal/dotfiles/#private_files/"*.zsh; do
+#   source "${conf}"
+# done
+# unset conf
 
 # Fig post block. Keep at the bottom of this file.
 . "$HOME/.fig/shell/zshrc.post.zsh"
